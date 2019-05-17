@@ -440,7 +440,7 @@ var toGeoJSON = (function() {
                 return style;
             }
             function getProperties(node) {
-                var prop = getMulti(node, ['name', 'cmt', 'desc', 'type', 'time', 'keywords']),
+                var prop = getMulti(node, ['name', 'cmt', 'desc', 'type', 'time', 'keywords', 'url']),
                     links = get(node, 'link');
                 if (links.length) prop.links = [];
                 for (var i = 0, link; i < links.length; i++) {

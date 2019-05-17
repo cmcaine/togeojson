@@ -104,7 +104,7 @@ just AJAX.
 * [x] Line Paths
 * [x] Line styles
 * [ ] Properties
-  * [x] 'name', 'cmt', 'desc', 'link', 'time', 'keywords', 'sym', 'type' tags
+  * [x] 'name', 'cmt', 'desc', 'link', 'time', 'keywords', 'sym', 'type', 'url' tags
   * [ ] 'author', 'copyright' tags
 
 ## FAQ
